@@ -1,6 +1,13 @@
 import './style.css';
 
 export default function Topo() {
+  
+  const header = document.querySelector('header');
+
+    window.addEventListener ('scroll', function(){
+      header.classList.toggle ('sticky', this.window.scrollY > 0);
+    })
+  
   return (
     <header>
       <a href="#" className="logo"><img src="../../public/assets/logo.png" alt="logo" /></a>
