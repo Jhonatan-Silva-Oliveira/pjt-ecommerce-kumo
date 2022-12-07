@@ -1,6 +1,7 @@
 import SecaoBanner from './SecaoBanner';
 import SecaoTrending from './SecaoTrending';
 import SecaoClient from './SecaoClient';
+import SecaoUpdateNews from './SecaoUpdateNews';
 
 export default function Conteudo() {
   return (
@@ -8,6 +9,7 @@ export default function Conteudo() {
       <SecaoBanner />
       <SecaoTrending />
       <SecaoClient />
+      <SecaoUpdateNews />
     </main>
   )
 }
