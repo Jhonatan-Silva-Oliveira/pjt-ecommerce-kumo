@@ -66,3 +66,20 @@ section {
   color: #fff;
   transition: all .42s ease;
 }
+
+/*Media queries*/
+
+@media(max-width:630px) {
+  .main-text h1 {
+    font-size: 50px;
+    transition: .4;
+  }
+  .main-text p {
+    font-size: 18px;
+    transition: .4;
+  }
+  .main-bnt {
+    padding: 10px 20px;
+    transition: .4;
+  }
+}

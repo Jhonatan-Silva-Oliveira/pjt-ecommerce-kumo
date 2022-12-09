@@ -1,3 +1,4 @@
+import React from 'react';
 import SecaoBanner from './SecaoBanner';
 import SecaoTrending from './SecaoTrending';
 import SecaoClient from './SecaoClient';
